@@ -39,10 +39,20 @@
   }
   
   footer {
-    position: absolute;
+    position:absolute;
     bottom: 0;
     background-color: black;
     color: white;
     padding: 20px;
     width: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    main {
+      flex-direction: column;
+    }
+  
+    header {
+      text-align: center;
+    }
   }
